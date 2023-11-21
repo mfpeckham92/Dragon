@@ -13,19 +13,20 @@
 
 <body>
 
-    <!-- Common Header -->
+    <!-- Common Header with Dropdown Menu -->
     <header>
         <img src="spacex_logo.png" alt="SpaceX Logo">
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="history.html">History</a></li>
-                <li><a href="faq.html">Frequently Asked Questions</a></li>
-            </ul>
+            <select onchange="location = this.value;">
+                <option value="index.html">Home</option>
+                <option value="history.html">History</option>
+                <option value="faq.html">Frequently Asked Questions</option>
+                <option value="contact.html">Contact Us</option>
+            </select>
         </nav>
     </header>
 
-    <!-- Home Page -->
+    <!-- Home Page Content -->
     <section id="home">
         <h1>SpaceX Dragon</h1>
         <p>First Private Spacecraft to the Space Station</p>
