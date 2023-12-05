@@ -14,8 +14,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid white; 
-    width: 100%; 
+    border-bottom: 1px solid white;
 }
 
 header img {
@@ -64,10 +63,9 @@ section p {
     height: 150px;
     object-fit: cover;
     margin: 0 10px;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
-
 
 footer {
     background-color: #000;
@@ -96,6 +94,8 @@ footer a {
     }
 
     #home .image-container img {
-        width: 80%; 
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
     }
 }
