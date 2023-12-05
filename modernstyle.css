@@ -54,16 +54,18 @@ section p {
 
 #home .image-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
 #home .image-container img {
-    width: 200px; /* Set a specific width for the images */
-    height: 150px; /* Set a specific height for the images */
-    object-fit: cover; /* Maintain aspect ratio and crop as needed to fit the container */
-    margin: 0 10px; /* Adjust the horizontal margin to control spacing between images */
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 10px;
+    max-width: 100%; 
+    height: auto;
 }
 
 
