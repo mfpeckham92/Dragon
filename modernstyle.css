@@ -52,22 +52,15 @@ section p {
 }
 
 #home .image-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%; /* 4:3 aspect ratio (adjust as needed) */
-    overflow: hidden;
-}
-
-#home .image-container:before {
-    content: '';
-    display: block;
-    padding-top: 75%; /* 4:3 aspect ratio (adjust as needed) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 #home .image-container img {
-    position: absolute;
+    aspect-ratio: 4 / 3; /* Adjust as needed */
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -91,9 +84,5 @@ footer a {
     nav li {
         display: block;
         margin-bottom: 10px;
-    }
-
-    #home .image-container {
-        padding-bottom: 150%; /* Adjust aspect ratio for smaller screens if needed */
     }
 }
