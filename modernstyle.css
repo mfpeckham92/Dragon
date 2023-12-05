@@ -1,30 +1,27 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, img {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply a modern font */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f3f3;
 }
 
-/* Style the header */
 header {
     background-color: #000;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid white; /* Add this style for the white line */
-    width: 100%; /* Make the header extend to the full width */
+    border-bottom: 1px solid white; 
+    width: 100%; 
 }
 
 header img {
     max-width: 100%;
     height: auto;
-    margin-right: 10px; /* Adjust as needed to separate the logo from navigation */
+    margin-right: 10px;
 }
 
 nav ul {
@@ -42,7 +39,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Style the content sections */
 section {
     text-align: center;
     padding: 50px 20px;
@@ -58,18 +54,17 @@ section p {
 
 #home .image-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; 
     align-items: center;
     margin-top: 20px;
 }
 
 #home .image-container img {
-    max-width: 100%; /* Ensure images don't exceed container width */
-    height: auto;    /* Maintain aspect ratio */
-    margin: 0 10px;   /* Adjust margin to control spacing between images */
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
 }
 
-/* Style the footer */
 footer {
     background-color: #000;
     color: #fff;
@@ -82,7 +77,6 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsive design */
 @media only screen and (max-width: 600px) {
     header img {
         width: 80%;
@@ -98,6 +92,6 @@ footer a {
     }
 
     #home .image-container img {
-        width: 80%; /* Adjust as needed for responsiveness */
+        width: 80%; 
     }
 }
