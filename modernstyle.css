@@ -89,14 +89,3 @@ footer a {
         display: block;
         margin-bottom: 10px;
     }
-
-    #home .image-container {
-        flex-direction: column;
-    }
-
-    #home .image-container img {
-        width: 80%;
-        height: auto;
-        margin: 10px 0;
-    }
-}
