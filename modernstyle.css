@@ -14,13 +14,13 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    border-bottom: 1px solid white; /* Add this style for the white line */
 }
 
 header img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px; /* Adjust as needed for the desired space between logo and navigation */
-    
+    margin-right: 10px; /* Adjust as needed for the desired space between logo and navigation */
 }
 
 nav ul {
@@ -89,3 +89,14 @@ footer a {
         display: block;
         margin-bottom: 10px;
     }
+
+    #home .image-container {
+        flex-direction: column;
+    }
+
+    #home .image-container img {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
