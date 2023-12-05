@@ -86,3 +86,15 @@ footer a {
         margin-bottom: 10px;
     }
 }
+
+#home .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#home .image-container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto;    /* Maintain aspect ratio */
+}
