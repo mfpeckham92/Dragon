@@ -20,7 +20,7 @@ header img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px; /* Adjust as needed for the desired space between logo and navigation */
-    border-bottom: 1px solid white; /* Add this style for the white line below the logo */
+    
 }
 
 nav ul {
