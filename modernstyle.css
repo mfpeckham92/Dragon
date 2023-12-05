@@ -59,9 +59,9 @@ section p {
 }
 
 #home .image-container img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    object-fit: conaint;
     margin: 0 10px;
     max-width: 100%;
     height: auto;
