@@ -68,6 +68,24 @@ section p {
     height: auto;
 }
 
+#history .content-container {
+    display: flex;
+}
+
+#history .image-container {
+    flex: 1;
+}
+
+#history .text-container {
+    flex: 2;
+    padding-left: 20px; 
+}
+
+#history .image-container img {
+    max-width: 100%; 
+    height: auto;  
+}
+
 footer {
     background-color: #000;
     color: #fff;
