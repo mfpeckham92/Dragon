@@ -56,7 +56,6 @@ section p {
     color: #555;
 }
 
-/* Style the image container */
 #home .image-container {
     display: flex;
     justify-content: space-around;
@@ -64,11 +63,10 @@ section p {
     margin-top: 20px;
 }
 
-/* Style individual images in the container */
 #home .image-container img {
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto;    /* Maintain aspect ratio */
+    margin: 0 10px;   /* Adjust margin to control spacing between images */
 }
 
 /* Style the footer */
