@@ -20,11 +20,12 @@ header {
 header img {
     max-width: 100%;
     height: auto;
-    margin-right: 10px;
+    margin-bottom: 10px; /* Adjust as needed for the desired space between logo and navigation */
 }
 
 nav ul {
     list-style: none;
+    margin-top: 10px; /* Adjust as needed for the space between logo and navigation */
 }
 
 nav li {
