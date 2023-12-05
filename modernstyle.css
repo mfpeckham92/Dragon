@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p, ul {
+body, h1, h2, p, ul, img {
     margin: 0;
     padding: 0;
 }
@@ -42,21 +42,21 @@ nav a {
     font-weight: bold;
 }
 
-/* Style the home section */
-#home {
+/* Style the content sections */
+section {
     text-align: center;
     padding: 50px 20px;
 }
 
-#home h1 {
+section h1 {
     color: #000;
 }
 
-#home p {
+section p {
     color: #555;
 }
 
-#home img {
+section img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
