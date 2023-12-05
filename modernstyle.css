@@ -59,9 +59,12 @@ section p {
 }
 
 #home .image-container img {
-    aspect-ratio: 4 / 3; /* Adjust as needed */
-    width: 100%;
+    width: 400px;  /* Set the desired width */
+    height: 300px; /* Set the desired height */
     object-fit: cover;
+    margin: 0 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
@@ -84,5 +87,15 @@ footer a {
     nav li {
         display: block;
         margin-bottom: 10px;
+    }
+
+    #home .image-container {
+        flex-direction: column;
+    }
+
+    #home .image-container img {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
     }
 }
