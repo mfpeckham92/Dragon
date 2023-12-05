@@ -61,7 +61,7 @@ section p {
 #home .image-container img {
     width: 400px;
     height: 300px;
-    object-fit: conaint;
+    object-fit: contain;
     margin: 0 10px;
     max-width: 100%;
     height: auto;
