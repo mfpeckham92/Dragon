@@ -1,20 +1,17 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, img {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a modern font */
+
 body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Set a background color */
 body {
     background-color: #f3f3f3;
 }
 
-/* Style the header */
 header {
     background-color: #000;
     color: #fff;
@@ -42,7 +39,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Style the content sections */
 section {
     text-align: center;
     padding: 50px 20px;
@@ -75,7 +71,6 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsive design */
 @media only screen and (max-width: 600px) {
     header img {
         width: 80%;
