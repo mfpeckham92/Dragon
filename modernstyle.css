@@ -3,7 +3,6 @@ body, h1, h2, p, ul, img {
     padding: 0;
 }
 
-
 body {
     font-family: 'Arial', sans-serif;
 }
@@ -17,11 +16,13 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    border-bottom: 1px solid white; /* Add this style for the white line */
 }
 
 header img {
     max-width: 100%;
     height: auto;
+    margin-right: 10px; /* Adjust as needed to separate the logo from navigation */
 }
 
 nav ul {
@@ -80,16 +81,11 @@ footer a {
         display: block;
         margin-bottom: 10px;
     }
-}
+    #home .image-container {
+        flex-direction: column;
+    }
 
-#home .image-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px; 
-}
-
-#home .image-container img {
-    max-width: 100%;
-    height: auto;
+    #home .image-container img {
+        margin-top: 10px;
+    }
 }
