@@ -86,10 +86,10 @@ footer a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px; 
 }
 
 #home .image-container img {
-    max-width: 100%; /* Ensure images don't exceed container width */
-    height: auto;    /* Maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
