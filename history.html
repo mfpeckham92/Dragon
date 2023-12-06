@@ -11,9 +11,9 @@
     <title>SpaceX Dragon - History</title>
     <style>
         body {
-            margin: 0;
+            margin: 0; /* Remove default body margin */
             display: flex;
-            flex-direction: column;
+            flex-direction: column; /* Arrange children in a column */
         }
 
         header {
@@ -40,33 +40,29 @@
         }
 
         section {
-            text-align: center;
-            margin: 20px;
-        }
-
-        h1 {
-            margin-bottom: 20px;
+            display: flex;
+            justify-content: center; /* Center children horizontally */
+            align-items: flex-start; /* Align children to the top */
+            margin: 20px; /* Adjust spacing */
         }
 
         .image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center images horizontally */
+            max-width: 20%; /* Adjust max-width of image container */
+            margin-right: 20px; /* Add space between images and text */
         }
 
         .image-container img {
-            max-width: 80%; /* Adjust image width */
+            max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
+            margin-bottom: 10px; /* Add space between images */
         }
 
         .text-container {
-            padding-left: 20px;
-            max-width: 80%; /* Limit text width */
-            margin: auto; /* Center text horizontally */
+            max-width: 80%; /* Adjust max-width of text container */
+            padding-left: 20px; /* Add space between images and text */
         }
 
-        .text-section p {
+        .text-container p {
             font-size: 18px; /* Adjust text font size */
         }
     </style>
@@ -86,7 +82,7 @@
     </header>
 
     <section id="history">
-        <h1>History</h1>
+        <h1 style="text-align: center;">History</h1>
         <div class="image-container">
             <img src="history1.jpg" alt="SpaceX Dragon History Image 1">
             <img src="history2.jpg" alt="SpaceX Dragon History Image 2">
@@ -123,3 +119,4 @@
 </body>
 
 </html>
+
