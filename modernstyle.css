@@ -165,3 +165,6 @@ footer {
 footer a {
     color: #fff;
 }
+.bold {
+    font-weight: bold;
+}
