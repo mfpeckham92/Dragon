@@ -11,9 +11,9 @@
     <title>SpaceX Dragon - History</title>
     <style>
         body {
-            margin: 0; 
+            margin: 0;
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
         }
 
         header {
@@ -41,25 +41,35 @@
 
         section {
             display: flex;
-            justify-content: space-between; 
-            margin: 20px; 
+            flex-direction: column; /* Change to column layout */
+            align-items: center; /* Center content horizontally */
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
         }
 
         .image-container {
-            flex: 1; 
+            flex: 1;
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
+            align-items: center; /* Center images horizontally */
         }
 
         .text-container {
-            flex: 3; 
-            padding-left: 20px; 
+            flex: 3;
+            padding-left: 20px;
         }
 
         .image-container img {
-            max-width: 100%;
+            max-width: 80%; /* Adjust image width */
             height: auto;
-            margin-bottom: 10px; 
+            margin-bottom: 10px;
+        }
+
+        .text-section p {
+            font-size: 18px; /* Adjust text font size */
         }
     </style>
 </head>
@@ -78,7 +88,7 @@
     </header>
 
     <section id="history">
-        <h1 style="margin-bottom: 20px;">History</h1>
+        <h1>History</h1>
         <div class="image-container">
             <img src="history1.jpg" alt="SpaceX Dragon History Image 1">
             <img src="history2.jpg" alt="SpaceX Dragon History Image 2">
