@@ -40,9 +40,7 @@
         }
 
         section {
-            display: flex;
-            flex-direction: column; /* Change to column layout */
-            align-items: center; /* Center content horizontally */
+            text-align: center;
             margin: 20px;
         }
 
@@ -51,21 +49,21 @@
         }
 
         .image-container {
-            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center; /* Center images horizontally */
-        }
-
-        .text-container {
-            flex: 3;
-            padding-left: 20px;
         }
 
         .image-container img {
             max-width: 80%; /* Adjust image width */
             height: auto;
             margin-bottom: 10px;
+        }
+
+        .text-container {
+            padding-left: 20px;
+            max-width: 80%; /* Limit text width */
+            margin: auto; /* Center text horizontally */
         }
 
         .text-section p {
