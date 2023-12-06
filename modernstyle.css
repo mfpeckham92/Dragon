@@ -40,7 +40,7 @@ nav a {
 }
 
 section {
-    text-align: center;
+    text-align: left; /* Adjusted to left-align text */
     padding: 50px 20px;
 }
 
@@ -50,6 +50,7 @@ section h1 {
 
 section p {
     color: #555;
+    margin-bottom: 20px;
 }
 
 #home .image-container {
@@ -82,7 +83,7 @@ section p {
 }
 
 #history .image-container img {
-    max-width: 100%; 
+    width: 100%; /* Make images take full width */
     height: auto;  
 }
 
