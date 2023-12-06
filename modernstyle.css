@@ -40,7 +40,7 @@ nav a {
 }
 
 section {
-    text-align: left; /* Updated to left-align text */
+    text-align: center;
     padding: 50px 20px;
 }
 
@@ -50,7 +50,6 @@ section h1 {
 
 section p {
     color: #555;
-    margin-bottom: 20px; /* Added margin-bottom for spacing between paragraphs */
 }
 
 #home .image-container {
@@ -61,8 +60,8 @@ section p {
 }
 
 #home .image-container img {
-    width: 400px;
-    height: 300px;
+    width: 400px;  /* Set the desired width */
+    height: 300px; /* Set the desired height */
     object-fit: cover;
     margin: 0 10px;
     max-width: 100%;
@@ -83,129 +82,8 @@ section p {
 }
 
 #history .image-container img {
-    width: 100%; /* Set the images to take up full width */
-    height: auto;
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 600px) {
-    header img {
-        width: 80%;
-    }
-
-    nav li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    #home .image-container {
-        flex-direction: column;
-    }
-
-    #home .image-container img {
-        width: 80%;
-        height: auto;
-        margin: 10px 0;
-    }
-}
-body, h1, h2, p, ul, img {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f3f3f3;
-}
-
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    border-bottom: 1px solid white; /* Add this style for the white line */
-}
-
-header img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px; /* Adjust as needed for the desired space between logo and navigation */
-}
-
-nav ul {
-    list-style: none;
-    margin-top: 10px; /* Adjust as needed for the space between logo and navigation */
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-section {
-    text-align: left; /* Updated to left-align text */
-    padding: 50px 20px;
-}
-
-section h1 {
-    color: #000;
-}
-
-section p {
-    color: #555;
-    margin-bottom: 20px; /* Added margin-bottom for spacing between paragraphs */
-}
-
-#home .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#home .image-container img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    margin: 0 10px;
-    max-width: 100%;
-    height: auto;
-}
-
-#history .content-container {
-    display: flex;
-}
-
-#history .image-container {
-    flex: 1;
-}
-
-#history .text-container {
-    flex: 2;
-    padding-left: 20px; 
-}
-
-#history .image-container img {
-    width: 100%; /* Set the images to take up full width */
-    height: auto;
+    max-width: 100%; 
+    height: auto;  
 }
 
 footer {
