@@ -12,20 +12,48 @@
     <style>
         body {
             margin: 0; /* Remove default body margin */
+            display: flex;
+            flex-direction: column; /* Arrange children in a column */
+        }
+
+        header {
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            background-color: #000;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
         }
 
         section {
-            margin-left: 20px; /* Add margin to the left of the section */
-        }
-
-        .content-container {
             display: flex;
-            flex-direction: column; /* Change to a vertical column layout */
-            align-items: flex-start; /* Align items to the start (left) */
+            justify-content: space-between; /* Separate images and text */
+            margin: 20px; /* Adjust spacing */
         }
 
         .image-container {
-            margin-bottom: 20px; /* Add space between images and text */
+            flex: 1; /* 20% width */
+            display: flex;
+            flex-direction: column; /* Arrange images in a column */
+        }
+
+        .text-container {
+            flex: 3; /* 80% width */
+            padding-left: 20px; /* Add space between images and text */
         }
 
         .image-container img {
@@ -51,29 +79,29 @@
 
     <section id="history">
         <h1 style="margin-bottom: 20px;">History</h1>
-        <div class="content-container">
-            <div class="image-container">
-                <img src="history1.jpg" alt="SpaceX Dragon History Image 1">
-                <img src="history2.jpg" alt="SpaceX Dragon History Image 2">
-                <img src="history3.jpg" alt="SpaceX Dragon History Image 3">
-            </div>
-            <div class="text-container">
+        <div class="image-container">
+            <img src="history1.jpg" alt="SpaceX Dragon History Image 1">
+            <img src="history2.jpg" alt="SpaceX Dragon History Image 2">
+            <img src="history3.jpg" alt="SpaceX Dragon History Image 3">
+        </div>
+        <div class="text-container">
+            <div class="text-section">
                 <p><strong>SpaceX Dragon: Pioneering the Cosmos</strong></p>
                 <p>The SpaceX Dragon spacecraft stands as a testament to the relentless pursuit of innovation and exploration. From its inception, each iteration has pushed the boundaries of space travel, redefining what's possible in the cosmos.</p>
             </div>
-            <div class="text-container">
+            <div class="text-section">
                 <p><strong>Dragon 1: A Trailblazer</strong></p>
                 <p>Launched in December 2010, Dragon 1 became the first commercial spacecraft to be recovered successfully from orbit. It marked a historic moment as it autonomously rendezvoused and docked with the International Space Station (ISS), setting the stage for future missions.</p>
             </div>
-            <div class="text-container">
+            <div class="text-section">
                 <p><strong>Dragon 2: A New Era</strong></p>
                 <p>Building on the success of its predecessor, Dragon 2, also known as Crew Dragon, introduced a new era of human spaceflight. With its state-of-the-art design and advanced capabilities, it became the first commercial spacecraft to transport astronauts to the ISS, rekindling the spirit of space exploration.</p>
             </div>
-            <div class="text-container">
+            <div class="text-section">
                 <p><strong>Innovation Unleashed</strong></p>
                 <p>Dragon spacecraft continuously evolves, incorporating cutting-edge technologies and sustainable practices. Its adaptability, safety features, and commitment to reducing environmental impact make it a symbol of SpaceX's dedication to the future of space exploration.</p>
             </div>
-            <div class="text-container">
+            <div class="text-section">
                 <p><strong>The Future Ahead</strong></p>
                 <p>As we journey forward, the SpaceX Dragon remains at the forefront of space innovation, inspiring the dreamers, scientists, and explorers of tomorrow. Join us on this celestial adventure as we unlock the mysteries of the universe together.</p>
             </div>
@@ -87,4 +115,3 @@
 </body>
 
 </html>
-
